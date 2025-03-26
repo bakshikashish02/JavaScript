@@ -4,6 +4,9 @@
 
 // Primitive datatypes => Call by value
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// null means nothing
+// undefined means nothing has been assigned yet
+// symbol datatype is used for uniqueness
 
 const score = 100
 const scoreValue = 100.3
@@ -20,6 +23,8 @@ console.table([id, anotherid]);
 console.log(id === anotherid);
 
 // const bigNumber = 35673983984734793n
+// ✅ Meaning of n:
+// The n at the end of the number indicates that it is a BigInt.
 
 
 // Non - primitive datatypes => call by reference
