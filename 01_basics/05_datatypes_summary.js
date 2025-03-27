@@ -68,3 +68,30 @@ Return type of variables in JavaScript
        Object  =>  object
 
 */
+
+
+// **************************************************
+
+// Stack (Primitive datatypes) , Heap (Non - primitive datatypes)
+
+let myGitName = "SyntaxKoder";
+
+let myanotherName = myGitName;
+
+myanotherName = "hikerWolf";
+
+console.log(myGitName);
+console.log(myanotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+// . value is used to access the properties of the object
+userTwo.email = "syntax@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
