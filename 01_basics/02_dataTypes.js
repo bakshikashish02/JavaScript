@@ -2,6 +2,7 @@
 
 // alert (3+3)
 /* 
+alert() instructs the browser to display a dialog with an optional message, and to wait until the user dismisses the dialog.
 alert is a statement. It will give error because right now we are talking within the NODE, and this statement will work only when the JS is binded with the html file or while using the developer mode in the chrome 
 It is working in the browser because the software to run JS was embedded with the browser while the node is a independent software.
 There is a different syntax to use the alert statement in node.
@@ -20,7 +21,7 @@ let isLoggedIn = false;
 let state;
 
 // primitive datatypes
-// number => 2^53 range
+// number => 0 to 2^53 - 1 range
 // bigint => for very very numbers
 // string => ""
 // boolean => true/false
