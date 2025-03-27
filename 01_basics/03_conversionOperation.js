@@ -31,7 +31,13 @@ let value_5 = Number(score_5);
 /* Here conversion of the string into the number occured but remember when we printed it, it said that the conversion done was not a number keep this in mind. */
 
 // console.log(typeof (value_3));
+// Surprisingly, this outputs object.
+// This is a JavaScript quirk (legacy behavior) where null is incorrectly classified as an object, even though it represents the absence of any object value. This is a known bug in JavaScript.
 // console.log(value_3);
+// When you convert null to a number using Number(), it becomes 0.
+// This is because:
+// null is treated as a falsy value.
+// When converted to a number, it is coerced into 0.
 
 // console.log(typeof (value_4));
 // console.log(value_4);
