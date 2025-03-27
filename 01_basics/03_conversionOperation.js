@@ -24,7 +24,9 @@ let value_5 = Number(score_5);
 
 
 // console.log(typeof (value_2));
-// console.log(value_2); // NaN means Not a Number and it is special datatype
+// console.log(value_2); // NaN means Not a Number
+//Even though the conversion fails and results in NaN, the type of value is still number because NaN is considered a special value of the number type in JavaScript.
+
 
 /* Here conversion of the string into the number occured but remember when we printed it, it said that the conversion done was not a number keep this in mind. */
 
