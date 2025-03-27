@@ -102,6 +102,15 @@ let str3 = str1 + str2
 // console.log(1 + 2 + "2")
 // // console.log(1 + "2" + 2)
 
+// ✅ Key Takeaways:
+// In JavaScript, the + operator:
+// number + string = string (String dominates over the number existence)
+// Performs addition if both operands are numbers.
+// Performs concatenation if either operand is a string.
+// Order of evaluation matters:
+// Left-to-right execution affects how the types are coerced.
+// When you mix numbers and strings, the first occurrence of a string triggers concatenation for the following operations.
+
 // console.log(3 + 4 * 5 % 3) 
 // // Writing this complex statement is not a good practice to do in the projects. It is better that you provide parenthesis within the values so, that it is clear that what of result you want.
 // console.log( ((3 + 4) * 5) % 3);
