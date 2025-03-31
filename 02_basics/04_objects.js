@@ -38,4 +38,38 @@ const obj4 = Object.assign({}, obj1, obj2, obj3); // {} is optional here, it gua
 // Spread method. (Glass example)
 
 const objFinal = {...obj1, ...obj2};
-console.log(objFinal);
+// console.log(objFinal);
+
+// Important for projects
+// Syntax used when the values comes from the database. It comes as array of objects.
+const users = [
+    {
+        id: 1,
+        email: "h@gmail.com"
+    },
+    {
+        id: 2,
+        email: "b@gmail.com"
+    }
+]
+
+// Accessing the objects in the array
+// console.log(users[1].email);
+console.log(tinderUser);
+
+// In JavaScript, keys and values are methods of the Object class that allow you to work with the properties of an object.
+// Accessing the keys of the objects
+console.log(Object.keys(tinderUser)); // Return type is in form of array
+// tinderUser is written because we want to access the keys of this object
+
+console.log(Object.values(tinderUser));
+// tinderUser is written because we want to access the values of this object
+
+// Rarely used 
+console.log(Object.entries(tinderUser)); // Key-value pair in array
+
+// To check whether there is property existing of the object when we fetch data from the database - this is important because if no property is found out there it may result in system crash.
+console.log(tinderUser.hasOwnProperty("isLoggedIn")); // True
+console.log(tinderUser.hasOwnProperty("isLogged")); // False
+
+// If you still want to learn just in the console and see all the properties in the prototype section.
